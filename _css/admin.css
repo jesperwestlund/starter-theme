@@ -1,0 +1,91 @@
+#wpcontent select option {
+	padding-right: 5px;
+}
+.image-radio-option td {
+	padding-top: 15px;
+}
+.image-radio-option label {
+	display: block;
+	float: left;
+	margin: 10px 30px 20px 2px;
+	position: relative;
+	text-align: center;
+}
+.image-radio-option input {
+	margin: 0 0 10px;
+}
+.image-radio-option span {
+	color: #999;
+	font-size: 12px;
+	display: block;
+	text-transform: uppercase;
+	width: 136px;
+}
+.image-radio-option img {
+	border: 1px solid #e5e5e5;
+	margin: 0 0 0 -2px;
+}
+.starter-form em {
+	color: #444;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+/** h2.starter-admin-settings:before {
+	color: #444;
+    content: "\f108";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 29px/1 'dashicons';
+    vertical-align: middle;
+    margin-right: 0.3em;
+} **/
+.starter-options-container {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	padding: 10px;
+}
+.starter-form tr {
+	background: #fff;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.starter-form tr:first-child {
+	border-top: 1px solid #e5e5e5;
+}
+.starter-form tr:last-child {
+	border-bottom: 1px solid #e5e5e5;
+}
+.starter-form th,
+.starter-form td {
+	padding: 10px;
+	vertical-align: top;
+}
+.starter-form .row {
+	margin-bottom: 20px;
+}
+.starter-form td,
+.starter-form td p,
+.starter-form th,
+.starter-form label {
+	font-size: 13px;
+}
+.starter-form {
+	
+}
+.starter-form input.full-width {
+	width: 100%;
+}
+.starter-form td {
+	vertical-align: middle;
+}
+#google_api_key {
+	max-width: 100%;
+	min-width: 350px;
+	width: auto;
+}
