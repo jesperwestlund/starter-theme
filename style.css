@@ -339,6 +339,149 @@ p.site-description {
 	background: #ddd;
 }
 
+/**
+ * #.# Width smaller than 960px
+ *
+ * Devices and browsers.
+ */
+
+@media only screen and (max-width: 959px) {
+	#search-wrap input[type=text] {
+		width: 180px;
+	}
+}
+
+/**
+ * #.# Width smaller than 769pxpx
+ *
+ * Devices and browsers.
+ */
+@media only screen and (max-width: 768px) {
+	#search-wrap form {
+		display: none;
+	}
+}
+
+/**
+ * #.# Tablet Portrait
+ *
+ * Tablet Portrait size to standard 960 (devices and browsers).
+ */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	/* Show the main menu as a select element */
+	#menu-mobile {
+		display: block;
+		height: 50px;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+
+	#menu-mobile select {
+		font-size: 14px;
+		height: 30px !important;
+		line-height: 30px;
+		margin: 10px;
+		width: 40%;
+	}
+	
+	/* Hide the superfish main menu */
+	#menu ul, #menu {
+		display: none;
+	}
+}
+
+/**
+ * #.# Mobile Landscape
+ *
+ * Size to Tablet Portrait (devices and browsers).
+ */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/* Show the main menu as a select element */
+	#menu-mobile {
+		display: block;
+		height: 50px;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+	
+	#menu-mobile select {
+		font-size: 14px;
+		height: 30px !important;
+		line-height: 30px;
+		margin: 10px 0;
+		width: 100%;
+	}
+	
+	/* Hide the superfish main menu */
+	#menu ul, #menu {
+		display: none;
+	}
+
+	.post-links {
+		position: relative;
+		display: block;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+}
+
+/**
+ * #.# Mobile Portrait
+ *
+ * Size to Mobile Landscape Size (devices and browsers).
+ */
+
+@media only screen and (max-width: 479px) {
+
+	/* Show the main menu as a select element */
+	#menu-mobile {
+		display: block;
+		height: 50px;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+
+	#menu-mobile select {
+		font-size: 14px;
+		height: 30px !important;
+		line-height: 30px;
+		margin: 10px 0;
+		width: 100%;
+	}
+	
+	/* Hide the superfish main menu */
+	#menu ul, #menu {
+		display: none;
+	}
+
+	.post-links {
+		position: relative;
+		display: block;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+}
+
+/**
+ * #.# Print
+ *
+ * Special styles only applied when the page is printed.
+ */
+
+@media print {
+	
+	/* 1. Add URL to links when printed. */
+
+	a[href]:after {
+		content: " (" attr(href) ") "; /* 1 */
+	}
+
+}
+
 @font-face {
 	font-family: 'PF Beau Sans Pro Semibold';
 	src: url('./_fonts/pfbeausanspro-semibold-webfont.eot');
